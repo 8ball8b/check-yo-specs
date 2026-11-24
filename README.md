@@ -25,10 +25,9 @@ Windows bilgisayarınızın temel donanım bilgilerini renkli ve kullanımı kol
    git clone https://github.com/8ball8b/check-yo-specs.git
    ```
 
-2. PowerShell'de proje klasörüne geçin ve uygulamayı başlatın:
+2. PowerShell'de `donanim_menu.ps1` dosyasının bulunduğu klasöre geçin. Git ile klonladıysanız `cd check-yo-specs` komutunu kullanabilirsiniz; ZIP indirdiyseniz çıkardığınız klasöre gidin. Ardından uygulamayı başlatın:
 
    ```powershell
-   cd check-yo-specs
    powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\donanim_menu.ps1"
    ```
 
